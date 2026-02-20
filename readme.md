@@ -12,7 +12,7 @@ Given a sequence of `16UC1` depth images containing a tumbling 3D cuboid, this p
 
 ![Depth Frame Visual Check](src/visual_check.png)
 
-*Figure: False-colour depth map of a single frame. Purple/dark regions indicate near-zero depth (invalid or background); the bright yellow-orange patch on the left edge is a close reflective surface. The large cuboid face occupies the mid-range (~5–8 m) purple band in the centre-left of the scene.*
+*Figure: Colour depth map of a single frame.
 
 ---
 

@@ -40,18 +40,17 @@ Employs Singular Value Decomposition (SVD) on the mean-centred trajectory of sur
 │   ├── depth.db3              # ROS 2 bag file (binary depth data)
 │   └── metadata.yaml          # Bag metadata (topics, timestamps, camera info)
 ├── docs/
-│   └── Approach.pdf           # Detailed methodology and mathematical proofs
+│   └── Approach.pdf           # Detailed methodology, trial and error observations
 ├── output/
 │   ├── results_table.csv      # Per-frame area and normal angle results
 │   └── rotation_axis.txt      # Estimated global rotation axis vector
 ├── src/
 │   ├── solution.py            # Main estimation pipeline
 │   ├── geometry_utils.py      # Shared 3D geometry helpers
-│   ├── check_resolution.py    # Depth image resolution diagnostics
+│   ├── check_resolution.py    # Check resolution of every frame
 │   ├── inspect_clouds.py      # Interactive 3D point cloud & RANSAC visualiser
 │   ├── inspect_2d.py          # 2D depth mask validation tool
 │   └── visual_check.png       # Sample depth frame for visual validation
-├── .gitignore
 ├── requirements.txt           # Python dependencies
 └── README.md
 ```

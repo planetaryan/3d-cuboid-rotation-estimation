@@ -62,7 +62,7 @@ Employs Singular Value Decomposition (SVD) on the mean-centred trajectory of sur
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/3d-cuboid-rotation-estimation.git
+git clone https://github.com/planetaryan/3d-cuboid-rotation-estimation.git
 cd 3d-cuboid-rotation-estimation
 ```
 
